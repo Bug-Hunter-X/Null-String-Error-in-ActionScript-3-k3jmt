@@ -1,0 +1,2 @@
+# ActionScript 3 Null String Error
+This repository demonstrates a common error in ActionScript 3 related to accessing the length property of a null string.  The code in `bug.as` attempts to access the length of a potentially null string, resulting in an error. The solution in `bugSolution.as` shows how to correctly handle this scenario by checking for null before accessing the length property.
